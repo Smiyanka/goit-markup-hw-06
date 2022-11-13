@@ -470,31 +470,31 @@
         
         <form>
           <h2>Залиште свої дані, ми вам передзвонимо</h2>
-          <div class="form-fied">
+          <div class="form-field">
             <label for="name">Ім'я </label>
           <input 
           type="text" 
           name="username" 
           id="name"/>
           </div>
-          <div  class="form-fied">
+          <div class="form-field">
             <label for="tel">Телефон</label>
-          <input type="tel" name="tel" id="tel"/>
+          <input  class="form-input" type="tel" name="tel" id="tel"/>
           </div>
-          <div class="form-filld">
-            <label for="mail">Пошта</label>
-          <input type="email" name="mail" id="mail"/>
+          <div class="form-field">
+            <label class="form-label" for="mail">Пошта</label>
+          <input class="form-input" type="email" name="mail" id="mail"/>
           </div>
-          <div class="form-fild">
-            <label for="comment">Коментар</label>
-          <textarea name="comment" id="comment"  rows="10" placeholder="Введіть текст"></textarea>
+          <div class="form-field">
+            <label class="form-label" for="comment">Коментар</label>
+          <textarea  class="form-comment" name="comment" id="comment"  rows="10" placeholder="Введіть текст"></textarea>
           </div>
           
            <div class="form-policy">
-            <input type="checkbox" name="policy" id="policy" />
-          <label for="policy">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
+            <input  class="form-input" type="checkbox" name="policy" id="policy" />
+          <label  class="form-label" for="policy">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
          
-          <button type="submit">Відправити</button>
+          <button class="form-button" type="submit">Відправити</button>
            </div>
         </form>
         

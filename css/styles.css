@@ -841,3 +841,20 @@ gap: 70px;
 .footer-div {
    margin-left: 94px;
 }
+
+/* form */
+textarea {
+   resize: none;
+}
+
+ form {
+
+   padding: 40px; 
+ }
+
+ .form-field {
+   display: flex;
+   flex-direction: column;
+
+margin-bottom: 10px;
+ }
