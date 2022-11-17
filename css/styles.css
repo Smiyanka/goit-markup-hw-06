@@ -850,11 +850,18 @@ gap: 70px;
    margin-left: 94px;
 }
 
+.form-div {
+   margin-left: 94px;
+}
+
 /* form */
 textarea {
    resize: none;
 }
 
+.form-policy {
+   margin-top: 20px;
+}
  
 
  .form-field {
@@ -942,7 +949,7 @@ textarea {
 
 
  .label-policy {
-padding: 12px;
+padding-left: 12px;
 width: 400px;
 height: 24px;
 
@@ -1002,6 +1009,7 @@ font-size: 20px;
 line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 12px;
 
 color: var(--title-color);
 }
@@ -1023,7 +1031,8 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .footer-form-button {
-  
+  display: flex;
+  justify-content: center ;
    width: 200px;
    height: 50px;
    margin-left: auto;
@@ -1045,7 +1054,11 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .footer-input {
+   display: block;
    box-sizing: border-box;
+   padding-left: 16px;
+   padding-top: 15px;
+   padding-bottom: 15px;
 
    width: 358px;
    height: 50px;
@@ -1054,6 +1067,7 @@ color: rgba(117, 117, 117, 0.5);
    border: 1px solid rgba(255, 255, 255, 0.3);
    border-radius: 4px;
 
+   color: var(--text-color);
 }
 
 .footer-mail {
@@ -1064,4 +1078,15 @@ color: rgba(117, 117, 117, 0.5);
    font-size: 14px;
    line-height: 1.17;
    margin-bottom: 14px;
+}
+
+.footer-input:hover,
+.footer-input:focus {
+  outline: 0;
+ 
+}
+
+.footer-label {
+   display: flex;
+   gap: 12px;
 }
