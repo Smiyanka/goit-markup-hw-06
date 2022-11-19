@@ -997,8 +997,9 @@ color: var(--text-color);
    background-color: var(--hero-background-hover-color);
 border-color: var(--hero-background-hover-color);
 background-image: url(../images/Vector-check.svg);
-background-size: contain;
+background-size: 11px 8 px;
 background-origin: border-box;
+background-position: center;
 }
 
 
